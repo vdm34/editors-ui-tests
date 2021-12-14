@@ -5,7 +5,7 @@
   "author": "",
   "license": "",
   "scripts": {
-    "test": "playwright-runner"
+    "test": "playwright test"
   },
   "dependencies": {
     "@types/node": "^15.0.1",

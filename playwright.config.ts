@@ -15,7 +15,7 @@ const config: PlaywrightTestConfig = {
         ['allure-playwright']
     ],
     timeout: 0.5 * 60 * 1000,
-    retries: 2,
+    retries: 1,
 }
 
 export default config

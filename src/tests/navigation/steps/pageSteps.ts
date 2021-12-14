@@ -10,12 +10,12 @@ export class PageSteps {
         this.page = page;
     }
 
-    // @allureStepDecorator('open url') почему то не работает декоратор аллюра :(
+    // @allureStepDecorator('open url')
     openUrl(url: string) {
-        this.page.goto (url)
+        return this.page.goto(url)
     }
 
     wait(ms: number) {
-        this.page.waitForTimeout(ms)
+        return this.page.waitForTimeout(ms)
     }
 }
