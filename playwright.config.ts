@@ -16,6 +16,7 @@ const config: PlaywrightTestConfig = {
     ],
     timeout: 0.5 * 60 * 1000,
     retries: 1,
+    workers: process.env.CI ? 2 : undefined
 }
 
 export default config
